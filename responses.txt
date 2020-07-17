@@ -1,19 +1,21 @@
-ASBaseAI.Responses = {
-    {
-        triggers = {
-            "Hello",
-        },
+function()
+    ASBaseAI.Responses = {
+        {
+            triggers = {
+                "Hello",
+            },
 
-        responses = {
-            "Welcome back",
-        },
+            responses = {
+                "Welcome back",
+            },
 
-        customCheck = function(ply)
-            return true
-        end,
+            customCheck = function(ply)
+                return true
+            end,
 
-        customAction = function(ply)
-            return false
-        end,
+            customAction = function(ply)
+                return false
+            end,
+        }
     }
-}
+end
